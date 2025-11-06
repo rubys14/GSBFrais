@@ -1,0 +1,40 @@
+DEBUG - 2025-10-17 11:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-17 11:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-17 11:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-17 11:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-17 11:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-17 11:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-17 11:38:59 --> ErrorException: Undefined variable $articles
+[Method: GET, Route: accueil]
+in APPPATH\Views\actualites.php on line 7.
+ 1 APPPATH\Views\actualites.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $articles', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais-V2\\app\\Views\\actualites.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais-V2\\app\\Views\\actualites.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('actualites', [], true)
+ 5 APPPATH\Controllers\Accueil.php(30): view('actualites', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accueil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais-V2\\public\\index.php')
+DEBUG - 2025-10-17 11:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-17 11:40:15 --> ErrorException: Undefined variable $article
+[Method: GET, Route: accueil]
+in APPPATH\Views\actualites.php on line 9.
+ 1 APPPATH\Views\actualites.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $article', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais-V2\\app\\Views\\actualites.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais-V2\\app\\Views\\actualites.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('actualites', [], true)
+ 5 APPPATH\Controllers\Accueil.php(30): view('actualites', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accueil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais-V2\\public\\index.php')
+DEBUG - 2025-10-17 11:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-17 11:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-17 11:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

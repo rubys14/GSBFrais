@@ -1,0 +1,525 @@
+DEBUG - 2025-11-05 13:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-05 14:24:30 --> ErrorException: Undefined variable $role
+[Method: GET, Route: accueil]
+in APPPATH\Views\sommaire.php on line 20.
+ 1 APPPATH\Views\sommaire.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sommaire', [], true)
+ 5 APPPATH\Controllers\Accueil.php(28): view('sommaire')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accueil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 14:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-05 14:24:49 --> ErrorException: Undefined variable $role
+[Method: GET, Route: accueil]
+in APPPATH\Views\sommaire.php on line 20.
+ 1 APPPATH\Views\sommaire.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sommaire', [], true)
+ 5 APPPATH\Controllers\Accueil.php(28): view('sommaire')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accueil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 14:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-05 14:26:28 --> ErrorException: Undefined variable $utilisateur
+[Method: GET, Route: accueil]
+in APPPATH\Views\sommaire.php on line 20.
+ 1 APPPATH\Views\sommaire.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $utilisateur', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sommaire', [], true)
+ 5 APPPATH\Controllers\Accueil.php(28): view('sommaire')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accueil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 14:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-05 14:28:23 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: accueil]
+in APPPATH\Views\sommaire.php on line 21.
+ 1 APPPATH\Views\sommaire.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sommaire', [], true)
+ 5 APPPATH\Controllers\Accueil.php(28): view('sommaire')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accueil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 14:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-05 14:29:18 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: accueil]
+in APPPATH\Views\sommaire.php on line 21.
+ 1 APPPATH\Views\sommaire.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Views\\sommaire.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('sommaire', [], true)
+ 5 APPPATH\Controllers\Accueil.php(28): view('sommaire')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accueil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accueil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 14:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-05 14:38:39 --> ErrorException: Undefined array key "idRole"
+[Method: POST, Route: connexion/valider]
+in APPPATH\Controllers\Connexion.php on line 60.
+ 1 APPPATH\Controllers\Connexion.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idRole"', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Controllers\\Connexion.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 14:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-05 14:40:48 --> mysqli_sql_exception: Unknown column 'fichefrais.idUtilisateur' in 'where clause' in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `fichefr...', 0)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fichefr...')
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fichefr...')
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `fichefr...', Array, false)
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Gererfrais.php(29): App\Models\GsbModel->get_id_ficheFrais('a17', '2025', '11')
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(903): App\Controllers\Gererfrais->__construct()
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#13 {main}
+CRITICAL - 2025-11-05 14:40:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'fichefrais.idUtilisateur' in 'where clause'
+[Method: GET, Route: gererfrais]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `fichefrais`.`idFiche`, `fichefrais`.`idEtat`
+FROM `fichefrais`
+WHERE `fichefrais`.`idUtilisateur` = :fichefrais.idUtilisateur:
+AND `fichefrais`.`annee` = :fichefrais.annee:
+AND `fichefrais`.`mois` = :fichefrais.mois:', [...], false)
+ 2 APPPATH\Models\GsbModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gererfrais.php(29): App\Models\GsbModel->get_id_ficheFrais('a17', '2025', '11')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Gererfrais->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-05 14:40:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'fichefrais.idUtilisateur' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fichefrais`.`idFiche`, `fichefrais`.`idEtat`
+FROM `fichefrais`
+WHERE `fichefrais`.`idUtilisateur` = \'a17\'
+AND `fichefrais`.`annee` = \'2025\'
+AND `fichefrais`.`mois` = \'11\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fichefrais`.`idFiche`, `fichefrais`.`idEtat`
+FROM `fichefrais`
+WHERE `fichefrais`.`idUtilisateur` = \'a17\'
+AND `fichefrais`.`annee` = \'2025\'
+AND `fichefrais`.`mois` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `fichefrais`.`idFiche`, `fichefrais`.`idEtat`
+FROM `fichefrais`
+WHERE `fichefrais`.`idUtilisateur` = :fichefrais.idUtilisateur:
+AND `fichefrais`.`annee` = :fichefrais.annee:
+AND `fichefrais`.`mois` = :fichefrais.mois:', [...], false)
+ 4 APPPATH\Models\GsbModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Gererfrais.php(29): App\Models\GsbModel->get_id_ficheFrais('a17', '2025', '11')
+ 6 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Gererfrais->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-05 14:40:48 --> [Caused by] mysqli_sql_exception: Unknown column 'fichefrais.idUtilisateur' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `fichefrais`.`idFiche`, `fichefrais`.`idEtat`
+FROM `fichefrais`
+WHERE `fichefrais`.`idUtilisateur` = \'a17\'
+AND `fichefrais`.`annee` = \'2025\'
+AND `fichefrais`.`mois` = \'11\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fichefrais`.`idFiche`, `fichefrais`.`idEtat`
+FROM `fichefrais`
+WHERE `fichefrais`.`idUtilisateur` = \'a17\'
+AND `fichefrais`.`annee` = \'2025\'
+AND `fichefrais`.`mois` = \'11\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fichefrais`.`idFiche`, `fichefrais`.`idEtat`
+FROM `fichefrais`
+WHERE `fichefrais`.`idUtilisateur` = \'a17\'
+AND `fichefrais`.`annee` = \'2025\'
+AND `fichefrais`.`mois` = \'11\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `fichefrais`.`idFiche`, `fichefrais`.`idEtat`
+FROM `fichefrais`
+WHERE `fichefrais`.`idUtilisateur` = :fichefrais.idUtilisateur:
+AND `fichefrais`.`annee` = :fichefrais.annee:
+AND `fichefrais`.`mois` = :fichefrais.mois:', [...], false)
+ 5 APPPATH\Models\GsbModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Gererfrais.php(29): App\Models\GsbModel->get_id_ficheFrais('a17', '2025', '11')
+ 7 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Gererfrais->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 14:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-05 14:40:55 --> mysqli_sql_exception: Unknown column 'idUtilisateur' in 'where clause' in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT CONCAT(a...', 0)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(a...')
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(a...')
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(a...', Array, false)
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Etatfrais.php(57): App\Models\GsbModel->get_les_mois_disponibles('a17')
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Etatfrais.php(36): App\Controllers\Etatfrais->commun()
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Etatfrais->index()
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etatfrais))
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#14 {main}
+CRITICAL - 2025-11-05 14:40:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idUtilisateur' in 'where clause'
+[Method: GET, Route: etatfrais]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = :idUtilisateur:
+ORDER BY `annee` DESC, `mois` DESC', [...], false)
+ 2 APPPATH\Models\GsbModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Etatfrais.php(57): App\Models\GsbModel->get_les_mois_disponibles('a17')
+ 4 APPPATH\Controllers\Etatfrais.php(36): App\Controllers\Etatfrais->commun()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etatfrais->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etatfrais))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-05 14:40:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idUtilisateur' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = :idUtilisateur:
+ORDER BY `annee` DESC, `mois` DESC', [...], false)
+ 4 APPPATH\Models\GsbModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Etatfrais.php(57): App\Models\GsbModel->get_les_mois_disponibles('a17')
+ 6 APPPATH\Controllers\Etatfrais.php(36): App\Controllers\Etatfrais->commun()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etatfrais->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etatfrais))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-05 14:40:55 --> [Caused by] mysqli_sql_exception: Unknown column 'idUtilisateur' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = :idUtilisateur:
+ORDER BY `annee` DESC, `mois` DESC', [...], false)
+ 5 APPPATH\Models\GsbModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Etatfrais.php(57): App\Models\GsbModel->get_les_mois_disponibles('a17')
+ 7 APPPATH\Controllers\Etatfrais.php(36): App\Controllers\Etatfrais->commun()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etatfrais->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etatfrais))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 14:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 14:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-05 14:58:35 --> mysqli_sql_exception: Unknown column 'idUtilisateur' in 'where clause' in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT CONCAT(a...', 0)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(a...')
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(a...')
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(a...', Array, false)
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Etatfrais.php(57): App\Models\GsbModel->get_les_mois_disponibles('a17')
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Etatfrais.php(36): App\Controllers\Etatfrais->commun()
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Etatfrais->index()
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etatfrais))
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#14 {main}
+CRITICAL - 2025-11-05 14:58:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idUtilisateur' in 'where clause'
+[Method: GET, Route: etatfrais]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = :idUtilisateur:
+ORDER BY `annee` DESC, `mois` DESC', [...], false)
+ 2 APPPATH\Models\GsbModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Etatfrais.php(57): App\Models\GsbModel->get_les_mois_disponibles('a17')
+ 4 APPPATH\Controllers\Etatfrais.php(36): App\Controllers\Etatfrais->commun()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etatfrais->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etatfrais))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-05 14:58:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'idUtilisateur' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = :idUtilisateur:
+ORDER BY `annee` DESC, `mois` DESC', [...], false)
+ 4 APPPATH\Models\GsbModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Etatfrais.php(57): App\Models\GsbModel->get_les_mois_disponibles('a17')
+ 6 APPPATH\Controllers\Etatfrais.php(36): App\Controllers\Etatfrais->commun()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etatfrais->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etatfrais))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-05 14:58:35 --> [Caused by] mysqli_sql_exception: Unknown column 'idUtilisateur' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = \'a17\'
+ORDER BY `annee` DESC, `mois` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(annee, mois) AS "anneemois", `annee`, `mois`
+FROM `fichefrais`
+WHERE `idUtilisateur` = :idUtilisateur:
+ORDER BY `annee` DESC, `mois` DESC', [...], false)
+ 5 APPPATH\Models\GsbModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Etatfrais.php(57): App\Models\GsbModel->get_les_mois_disponibles('a17')
+ 7 APPPATH\Controllers\Etatfrais.php(36): App\Controllers\Etatfrais->commun()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Etatfrais->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etatfrais))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 15:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-05 15:15:50 --> mysqli_sql_exception: Column 'idRole' in field list is ambiguous in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `idutili...', 0)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idutili...')
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idutili...')
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idutili...', Array, false)
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#13 {main}
+CRITICAL - 2025-11-05 15:15:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'idRole' in field list is ambiguous
+[Method: POST, Route: connexion/valider]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idutilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`, `idRole`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`id`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 2 APPPATH\Models\GsbModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-05 15:15:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'idRole' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idutilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`, `idRole`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`id`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idutilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`, `idRole`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`id`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idutilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`, `idRole`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`id`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 4 APPPATH\Models\GsbModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-05 15:15:50 --> [Caused by] mysqli_sql_exception: Column 'idRole' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `idutilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`, `idRole`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`id`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idutilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`, `idRole`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`id`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idutilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`, `idRole`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`id`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idutilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`, `idRole`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`id`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 5 APPPATH\Models\GsbModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-05 15:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-05 15:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

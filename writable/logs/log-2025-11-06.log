@@ -1,0 +1,85 @@
+DEBUG - 2025-11-06 07:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-06 07:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-06 07:30:11 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: Hï¿½te inconnu.  in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'Z:\\STS24_PERSON...', 201)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('http://10.29.12...', 'adminer', Object(SensitiveParameterValue), 'gsbfrais-2025', 3306, '', 0)
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtili...', Array, false)
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('yanis', '123')
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: Hôte inconnu.  in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('http://10.29.12...', 'adminer', Object(SensitiveParameterValue), 'gsbfrais-2025', 3306, '', 0)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtili...', Array, false)
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('yanis', '123')
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: Hôte inconnu.  in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtili...', Array, false)
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('yanis', '123')
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#12 {main}
+CRITICAL - 2025-11-06 07:30:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: Hôte inconnu. 
+[Method: POST, Route: connexion/valider]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `role`.`libelle`
+FROM `utilisateur`
+INNER JOIN `role` ON `utilisateur`.`idRole` = `role`.`idRole`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 3 APPPATH\Models\GsbModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('yanis', '123')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
