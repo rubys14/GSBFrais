@@ -56,7 +56,7 @@ class Connexion extends BaseController
                 'idUtilisateur' => $utilisateur['idUtilisateur'],
                 'nom' => $utilisateur['nom'],
                 'prenom' => $utilisateur['prenom'],
-                'libelle' => $utilisateur["libelle"],
+                'role' => $utilisateur["role"],
                 // 'idRole' => $utilisateur["idRole"],
                 'isLoggedIn' => true
             ]);

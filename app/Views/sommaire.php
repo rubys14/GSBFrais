@@ -1,7 +1,7 @@
 <?php 
 
 $session = session(); 
-$utilisateur = $session->get('libelle');
+$utilisateur = $session->get('role');
 
 ?>
 
@@ -12,7 +12,7 @@ $utilisateur = $session->get('libelle');
         </div>
         <div id="infos">
             <h2><?= esc($session->get('prenom') . ' ' . $session->get('nom')) ?></h2>
-            <h3><?= ($session->get('libelle')) ?></h3>
+            <h3><?= ($session->get('role')) ?></h3>
         </div>
         <ul class="menuList">
             <li>

@@ -10,9 +10,8 @@ class GsbModel extends Model
     /** Retourne les informations d'un utilisateur */
     public function get_infos_utilisateur($login, $mdp)
     {
-        return $this->db->table('utilisateur')
-            ->select('idUtilisateur, nom, prenom, login, role.libelle,')
-            ->join("role", "utilisateur.idRole = role.idRole", "inner")
+        return $this->db->table('info_user')
+            ->select('idUtilisateur, nom, prenom, login, Role')
             ->where('login', $login)
             ->where('mdp', $mdp)
             ->get()
