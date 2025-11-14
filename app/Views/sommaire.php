@@ -8,7 +8,7 @@ $utilisateur = $session->get('role');
 <div id="menuGauche">
     <div id="infosUtil">
         <div id="user">
-            <img src="<?= base_url('assets/images/UserIcon.png') ?>" alt="user" />
+            <img src="<?= base_url('assets/images/UserIcon.png') ?>" alt="Utilisateur" />
         </div>
         <div id="infos">
             <h2><?= esc($session->get('prenom') . ' ' . $session->get('nom')) ?></h2>
