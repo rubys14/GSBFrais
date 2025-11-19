@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Models\GsbModel;
 use App\Libraries\Gsb_lib;
 
-class Gererfrais extends BaseController
+class GererFrais extends BaseController
 {
     private $id_annee;
     private $id_mois;
