@@ -11,7 +11,7 @@ class GsbModel extends Model
     public function get_infos_utilisateur($login, $mdp)
     {
         return $this->db->table('info_user')
-            ->select('idUtilisateur, nom, prenom, login, Role')
+            ->select('idUtilisateur, nom, prenom, login, Role, date-derniere-modif-mdp')
             ->where('login', $login)
             ->where('mdp', $mdp)
             ->get()
@@ -192,8 +192,7 @@ class GsbModel extends Model
     /** Supprime un frais hors forfait */
     public function supprimer_frais_hors_forfait($idFrais)
     {
-        // return $this->db->table('lignefraishorsforfait')->delete(['idLigneFHF' => $idFrais]);
-        return $this->db->query("CALL supprimer_frais_hors_forfait($idFrais)");
+        return $this->db->table('lignefraishorsforfait')->delete(['idLigneFHF' => $idFrais]);
     }
 
     /** Crée un nouveau frais hors forfait */
