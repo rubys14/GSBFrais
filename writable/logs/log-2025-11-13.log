@@ -1,0 +1,376 @@
+DEBUG - 2025-11-13 08:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 08:19:50 --> mysqli_sql_exception: Unknown column 'mdp' in 'where clause' in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `idUtili...', 0)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idUtili...')
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idUtili...')
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtili...', Array, false)
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#13 {main}
+CRITICAL - 2025-11-13 08:19:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mdp' in 'where clause'
+[Method: POST, Route: connexion/valider]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 2 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-13 08:19:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mdp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 4 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-13 08:19:50 --> [Caused by] mysqli_sql_exception: Unknown column 'mdp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 5 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-13 08:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 08:24:27 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+[Method: POST, Route: connexion/valider]
+in APPPATH\Controllers\Connexion.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-13 08:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 08:24:53 --> Error: Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+[Method: POST, Route: connexion/valider]
+in APPPATH\Controllers\Connexion.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-13 08:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 08:25:26 --> mysqli_sql_exception: Unknown column 'mdp' in 'where clause' in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#13 {main}
+CRITICAL - 2025-11-13 08:25:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mdp' in 'where clause'
+[Method: POST, Route: connexion/valider]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 2 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-13 08:25:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mdp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 4 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-13 08:25:26 --> [Caused by] mysqli_sql_exception: Unknown column 'mdp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 5 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-13 08:26:30 --> Error: Call to a member function view() on null
+[Method: POST, Route: connexion/valider]
+in APPPATH\Models\GsbModel.php on line 13.
+ 1 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-13 08:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 08:30:20 --> mysqli_sql_exception: Unknown column 'mdp' in 'where clause' in Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `idUtili...', 0)
+#1 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idUtili...')
+#2 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idUtili...')
+#3 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtili...', Array, false)
+#4 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\app\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+#6 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+#7 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+#8 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 Z:\STS24_PERSON_YANIS\Informatique\APSLAM\Mission3\GSBFrais\system\rewrite.php(44): require_once('Z:\\STS24_PERSON...')
+#13 {main}
+CRITICAL - 2025-11-13 08:30:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mdp' in 'where clause'
+[Method: POST, Route: connexion/valider]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 2 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-13 08:30:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mdp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 4 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+CRITICAL - 2025-11-13 08:30:20 --> [Caused by] mysqli_sql_exception: Unknown column 'mdp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = \'dandre\'
+AND `mdp` = \'oppg5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `idUtilisateur`, `nom`, `prenom`, `login`, `Role`
+FROM `info_user`
+WHERE `login` = :login:
+AND `mdp` = :mdp:', [...], false)
+ 5 APPPATH\Models\GsbModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Connexion.php(52): App\Models\GsbModel->get_infos_utilisateur('dandre', 'oppg5')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-13 08:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 08:34:44 --> ErrorException: Undefined array key "libelle"
+[Method: POST, Route: connexion/valider]
+in APPPATH\Controllers\Connexion.php on line 59.
+ 1 APPPATH\Controllers\Connexion.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "libelle"', 'Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\app\\Controllers\\Connexion.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Connexion->valider()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connexion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+DEBUG - 2025-11-13 08:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-13 08:39:01 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Libraries\Gsb_lib.php on line 31.
+ 1 APPPATH\Libraries\Gsb_lib.php(31): substr(null, 0, 4)
+ 2 APPPATH\Models\GsbModel.php(124): App\Libraries\Gsb_lib->get_annee_from_anneemois(null)
+ 3 APPPATH\Controllers\Gererfrais.php(45): App\Models\GsbModel->cree_nouvelles_lignes_frais('a01', '2025', '11')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gererfrais->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gererfrais))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+WARNING - 2025-11-13 08:39:01 --> [DEPRECATED] strlen(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Libraries\Gsb_lib.php on line 36.
+ 1 APPPATH\Libraries\Gsb_lib.php(36): strlen(null)
+ 2 APPPATH\Models\GsbModel.php(125): App\Libraries\Gsb_lib->get_mois_from_anneemois(null)
+ 3 APPPATH\Controllers\Gererfrais.php(45): App\Models\GsbModel->cree_nouvelles_lignes_frais('a01', '2025', '11')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gererfrais->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gererfrais))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
+WARNING - 2025-11-13 08:39:01 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Libraries\Gsb_lib.php on line 36.
+ 1 APPPATH\Libraries\Gsb_lib.php(36): substr(null, 4, -4)
+ 2 APPPATH\Models\GsbModel.php(125): App\Libraries\Gsb_lib->get_mois_from_anneemois(null)
+ 3 APPPATH\Controllers\Gererfrais.php(45): App\Models\GsbModel->cree_nouvelles_lignes_frais('a01', '2025', '11')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gererfrais->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gererfrais))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('Z:\\STS24_PERSON_YANIS\\Informatique\\APSLAM\\Mission3\\GSBFrais\\public\\index.php')
