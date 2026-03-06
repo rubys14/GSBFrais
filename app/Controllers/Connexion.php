@@ -2,6 +2,7 @@
 namespace App\Controllers;
 
 use App\Models\GsbModel;
+use DateTime;
 
 class Connexion extends BaseController
 {
@@ -51,16 +52,26 @@ class Connexion extends BaseController
 
         $utilisateur = $this->gsb_model->get_infos_utilisateur($login, $mdp);
 
+
         if ($utilisateur) {
-            session()->set([
-                'idUtilisateur' => $utilisateur['idUtilisateur'],
-                'nom' => $utilisateur['nom'],
-                'prenom' => $utilisateur['prenom'],
-                'role' => $utilisateur["role"],
-                // 'idRole' => $utilisateur["idRole"],
-                'isLoggedIn' => true
-            ]);
-            return redirect()->to('/accueil');
+
+            $dateDernierMdp = new DateTime($utilisateur['date-derniere-modif-mdp']);
+            $limite = new DateTime();
+            $limite->modify('-6 months');
+        
+            if ($dateDernierMdp > $limite) {
+                session()->set([
+                    'idUtilisateur' => $utilisateur['idUtilisateur'],
+                    'nom' => $utilisateur['nom'],
+                    'prenom' => $utilisateur['prenom'],
+                    'role' => $utilisateur["role"],
+                    'isLoggedIn' => true
+                ]);
+        
+                return redirect()->to('/accueil');
+            } else {
+                return redirect()->to('/changer-mdp');
+            }
         }
 
         return redirect()->back()->withInput()->with('erreurs', 'Login ou mot de passe incorrect');
